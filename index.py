@@ -25,7 +25,7 @@ def jscsdays():
     now_str = datetime.datetime.now().strftime('%Y-%m-%d')
     now = datetime.datetime.strptime(now_str, "%Y-%m-%d")
     csday = datetime.datetime.strptime("2003-07-06", "%Y-%m-%d")
-    csdays = (future - now).days
+    csdays = (csday - now).days
     return csdays
 
 def 生日距离天数计算(生日):
