@@ -21,6 +21,13 @@ User=[
 
 import requests,time,datetime,ChengShi_id,random
 
+def jscsdays()
+    now_str = datetime.datetime.now().strftime('%Y-%m-%d')
+    now = datetime.datetime.strptime(now_str, "%Y-%m-%d")
+    csday = datetime.datetime.strptime("2003-07-06", "%Y-%m-%d")
+    csdays = (future - now).days
+    return csdays
+
 def 生日距离天数计算(生日):
     生日 = 生日.split('-')
     dq=datetime.date.today()
@@ -94,6 +101,7 @@ def 发送消息(app_id,app_secret,用户):
     显示内容+='天气情况：%s\n\n'%天气情况
     显示内容+='最低气温：%s\n\n'%最低气温
     显示内容+='最高气温：%s\n\n'%最高气温
+    显示内容+='今天是出生的第'+jscsdays()+'天'
     显示内容+='\n'+英文文案+'\n'+中文文案+'\n'
     显示内容list=显示内容.split('\n')
     for a in range(len(显示内容list)):
