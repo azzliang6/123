@@ -9,7 +9,7 @@ User=[
                 '用户ID' : 'oQr-K6KLMgNQUNyRIkr9s3VTelSU',
                 '模块ID' : 'CS99hAp9JzWf1ERgZFQ_zDPWglCjrbaQc8ojhzJgHHA',
                 '省份' : '广西',#对应另一个文件查找
-                '城市' : '101300801',#对应另一个文件查找
+                '城市' : '贵港',#对应另一个文件查找
                 '生日' : {
                     '宝宝':'2020-2-2',
                     '憨憨':'2020-2-2',
