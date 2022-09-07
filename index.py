@@ -2,14 +2,14 @@
 
 User=[
     {
-        'app_id' : '',
-        'app_secret' : '',
+        'app_id' : 'wx0788e6432f81f28d',
+        'app_secret' : '80a7b2b7257ec426a54a99edf66c7906',
         '用户列表' : [
             {
-                '用户ID' : '',
-                '模块ID' : '',
-                '省份' : '云南',#对应另一个文件查找
-                '城市' : '昆明',#对应另一个文件查找
+                '用户ID' : 'oQr-K6KLMgNQUNyRIkr9s3VTelSU',
+                '模块ID' : 'CS99hAp9JzWf1ERgZFQ_zDPWglCjrbaQc8ojhzJgHHA',
+                '省份' : '广西',#对应另一个文件查找
+                '城市' : '101300801',#对应另一个文件查找
                 '生日' : {
                     '宝宝':'2020-2-2',
                     '憨憨':'2020-2-2',
