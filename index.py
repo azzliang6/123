@@ -21,7 +21,7 @@ User=[
 
 import requests,time,datetime,ChengShi_id,random
 
-def jscsdays()
+def jscsdays():
     now_str = datetime.datetime.now().strftime('%Y-%m-%d')
     now = datetime.datetime.strptime(now_str, "%Y-%m-%d")
     csday = datetime.datetime.strptime("2003-07-06", "%Y-%m-%d")
