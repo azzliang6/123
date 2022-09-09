@@ -106,6 +106,7 @@ def 发送消息(app_id,app_secret,用户):
     显示内容+='今天是出生的第%d'%ljycsdays+'天\n\n'
     显示内容+='18岁留下的遗憾就在22岁弥补吧\n\n'
     显示内容+=英文文案+'\n'+中文文案+'\n'
+    显示内容+='    '
     显示内容list=显示内容.split('\n')
     for a in range(len(显示内容list)):
         data['data']['date%s'%a]={}
